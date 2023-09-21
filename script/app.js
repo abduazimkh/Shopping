@@ -142,6 +142,7 @@ if(e.target.closest(".fa-heart")){
             .then(response => response.json())
             .then(data => renderProducts(data))
         }
+        document.body.style.filter = "blur(0)";
       })
     }
   }
