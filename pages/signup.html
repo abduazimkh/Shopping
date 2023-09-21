@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <form id="auth-form" class="auth-form">
+    <strong class="auth-alert">You signed up successfully!</strong>
+    <strong class="auth-error">Something went wrong!</strong>
+    <h1>Sign Up</h1>
+    <input type="text" class="auth-name" placeholder="Your name" autocomplete="additional-name" required>
+    <input type="email" class="auth-email" placeholder="Your email" autocomplete="email" required>
+    <input type="password" class="auth-password" placeholder="Your password" autocomplete="current-password" required minlength="8">
+    <input type="url" class="auth-avatar" placeholder="Your avatar URL" required>
+    <button type="submit">Sign Up</button>
+    <p>If you already have an account please Login to your account!</p>
+    <a href="./login.html">Login</a>
+  </form>
+  <script src="../script/signup.js"></script>
+</body>
+</html>

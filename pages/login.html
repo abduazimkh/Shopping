@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <form id="auth-form" class="auth-form">
+    <strong class="auth-alert">You logged in successfully!</strong>
+    <strong class="auth-error">Email or Password is incorrect!</strong>
+    <h1>Login</h1>
+    <input type="email" class="auth-email" placeholder="Your email" required>
+    <input type="password" class="auth-password" placeholder="Your password" required minlength="8">
+    <button type="submit">Login</button>
+    <p>If you don't have an account please Sign Up first!</p>
+    <a href="./signup.html">Sign Up</a>
+  </form>
+  <script src="../script/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> GET | DELETE | POST | PUT </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="search">
+    <form id="search-form">
+      <input type="text" placeholder="Search product">
+      <input type="number" placeholder="Min Price" id="min-price">
+      <input type="number" placeholder="Max Price" id="max-price">
+      <select id="search-select">
+        <option disabled selected>Choose your type</option>
+      </select>
+      <button type="submit"> <i class="fas fa-search"></i> Search</button>
+      <a href="./pages/adder.html">Add Products</a>
+      <a href="./pages/like.html">Liked Products</a>
+     <a href="./pages/signup.html" class="signup-link">Sign Up</a>
+     <a href="./pages/login.html"  class="login-link">Login</a>
+     <a href="./pages/account.html" class="account-link">Account</a>
+    </form>
+  </div>
+  <div class="loader-wrapper">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  </div>
+  <div class="product-container">
+  </div>
+  <script src="./script/app.js"></script>
+</body>
+</html>
